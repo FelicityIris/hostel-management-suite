@@ -25,8 +25,13 @@ npm install
 
 Configure `.env`:
 ```.env
-DATABASE_URL=postgresql://username:password@localhost:5432/hostel_management
+# PostgreSQL Database URL in format
+DATABASE_URL=postgresql://username:password@hostname:port/database_name
+
+# Node Environment Mode
 NODE_ENV=development
+
+# Node Server Port
 PORT=3000
 ```
 
